@@ -1,0 +1,134 @@
+{
+  "role_signals": {
+    "data engineer": [
+      "Designed and maintained scalable data pipelines for analytics and reporting use cases.",
+      "Built and optimized analytical datasets used by downstream teams for decision-making."
+    ],
+    "data scientist": [
+      "Collaborated with data engineering teams to prepare clean, reliable datasets for analysis and modeling.",
+      "Performed exploratory data analysis and feature preparation using Python and SQL."
+    ],
+    "mlops": [
+      "Productionized machine learning workflows with automated training, deployment, and monitoring.",
+      "Integrated ML pipelines with data platforms and CI/CD processes to improve reliability."
+    ],
+    "devops": [
+      "Supported data and ML platforms with infrastructure automation and deployment pipelines.",
+      "Improved reliability and observability of workloads in cloud environments."
+    ]
+  },
+  "tech_signals": {
+    "spark": [
+      "Implemented distributed data processing jobs using Spark/PySpark for large-scale datasets.",
+      "Optimized Spark workloads through partitioning, caching, and tuning to reduce runtime and cost."
+    ],
+    "pyspark": [
+      "Built ETL pipelines in PySpark to transform raw data into curated analytical tables.",
+      "Refactored PySpark jobs for maintainability and improved performance through optimization techniques."
+    ],
+    "airflow": [
+      "Orchestrated data pipelines using Apache Airflow with DAG scheduling, dependencies, and retries.",
+      "Implemented production-ready Airflow workflows with monitoring, alerting, and SLAs."
+    ],
+    "dbt": [
+      "Developed transformation models in dbt with modular structure, tests, and documentation.",
+      "Implemented dbt data quality checks to improve trust in analytical datasets."
+    ],
+    "etl": [
+      "Built ETL pipelines to ingest, transform, and load data from multiple sources into analytical storage.",
+      "Implemented incremental and full-load strategies to support batch processing use cases."
+    ],
+    "elt": [
+      "Applied ELT patterns by loading raw data first and transforming it into analytics-ready models.",
+      "Standardized ELT transformations to improve consistency across datasets."
+    ],
+    "pipeline": [
+      "Developed end-to-end data pipelines from raw ingestion to curated analytics layers.",
+      "Ensured pipeline reliability with retries, validation, and clear ownership."
+    ],
+    "data pipeline": [
+      "Developed end-to-end data pipelines from ingestion to curated layers for analytics.",
+      "Improved stability of data pipelines using monitoring and structured error handling."
+    ],
+    "kafka": [
+      "Built streaming pipelines using Kafka for near real-time ingestion and downstream processing.",
+      "Developed consumers/producers and event-driven flows to support analytics use cases."
+    ],
+    "kinesis": [
+      "Implemented real-time ingestion pipelines using Amazon Kinesis services.",
+      "Integrated streaming ingestion with storage and batch processing layers for analytics."
+    ],
+    "glue": [
+      "Built and maintained AWS Glue jobs for scalable ETL processing using Spark.",
+      "Integrated Glue pipelines with S3 and Athena to deliver curated datasets for analytics."
+    ],
+    "aws glue": [
+      "Developed AWS Glue ETL jobs to transform and load data into analytics-ready tables.",
+      "Implemented Glue workflows and job parameters to support reusable pipeline patterns."
+    ],
+    "emr": [
+      "Ran and optimized Spark workloads on EMR clusters for batch data processing.",
+      "Tuned EMR cluster sizing and configurations to balance performance and cost."
+    ],
+    "athena": [
+      "Enabled serverless analytics using Amazon Athena over data stored in S3.",
+      "Improved query performance by optimizing table layouts and partitioning strategies."
+    ],
+    "redshift": [
+      "Designed and maintained analytical schemas in Amazon Redshift for reporting use cases.",
+      "Optimized SQL performance through distribution/sort keys and query tuning."
+    ],
+    "snowflake": [
+      "Built and optimized analytical tables and views in Snowflake for BI and analytics.",
+      "Implemented ELT transformations and performance tuning for large datasets."
+    ],
+    "bigquery": [
+      "Designed analytical datasets and optimized SQL queries in BigQuery.",
+      "Worked with partitioned and clustered tables to improve query performance."
+    ],
+    "databricks": [
+      "Developed data workflows using Databricks notebooks and scheduled jobs.",
+      "Collaborated on lakehouse pipelines and optimized transformations for reliability."
+    ],
+    "mlflow": [
+      "Tracked experiments, metrics, and artifacts using MLflow to improve reproducibility.",
+      "Supported model lifecycle management and promoted consistent evaluation practices."
+    ],
+    "kubeflow": [
+      "Built and orchestrated ML pipelines using Kubeflow components on Kubernetes.",
+      "Integrated Kubeflow pipelines with data sources and automated deployment steps."
+    ],
+    "sagemaker": [
+      "Used Amazon SageMaker for training, deploying, and monitoring ML models.",
+      "Integrated SageMaker workflows with existing data pipelines and storage."
+    ],
+    "kubernetes": [
+      "Deployed and managed workloads on Kubernetes with resource configuration and scaling.",
+      "Supported batch jobs and services on Kubernetes with operational best practices."
+    ],
+    "docker": [
+      "Containerized workloads using Docker to ensure consistent environments and deployments.",
+      "Built reusable Docker images and standardized runtime dependencies."
+    ],
+    "terraform": [
+      "Provisioned cloud infrastructure using Terraform (IaC) for reproducible environments.",
+      "Managed infrastructure changes via code reviews and automated deployment workflows."
+    ],
+    "ci/cd": [
+      "Built CI/CD pipelines to automate testing and deployment for data workflows.",
+      "Integrated code quality checks and deployment automation into delivery processes."
+    ],
+    "python": [
+      "Developed data processing and automation scripts using Python.",
+      "Built reusable Python modules/utilities to support data pipeline development."
+    ],
+    "sql": [
+      "Wrote complex SQL transformations to build analytics-ready datasets.",
+      "Optimized SQL queries and validated correctness for reporting and analytics use cases."
+    ],
+    "scala": [
+      "Developed Spark-based processing logic using Scala for performance and reliability.",
+      "Worked with strongly-typed Scala code to implement robust data transformations."
+    ]
+  }
+}

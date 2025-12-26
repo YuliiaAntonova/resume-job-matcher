@@ -1,0 +1,89 @@
+@page {
+  margin: 20mm 18mm 18mm 18mm;
+}
+
+* {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  font-size: 10.4pt;        /* ⬅️ уменьшили */
+  line-height: 1.32;        /* ⬅️ компактнее */
+  color: #111;
+}
+
+/* ===== NAME ===== */
+h1 {
+  font-size: 18pt;          /* немного меньше */
+  margin: 0 0 8pt 0;
+  letter-spacing: 0.18em;   /* ⬅️ ВАЖНО: уменьшили */
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+
+
+/* ===== SECTION TITLES ===== */
+h2 {
+  font-size: 12pt;          /* ⬅️ компактнее */
+  margin: 14pt 0 6pt 0;
+  padding-top: 6pt;
+  border-top: 1px solid #ddd;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ===== PARAGRAPHS ===== */
+p {
+  margin: 0 0 5pt 0;        /* ⬅️ меньше отступ */
+}
+
+/* ===== BOLD ===== */
+strong {
+  font-weight: 700;
+}
+
+/* ===== LINKS ===== */
+a {
+  color: #111;
+  text-decoration: none;
+}
+
+/* ===== BULLETS (• text bullets, not markdown lists) ===== */
+p::before {
+  /* nothing here on purpose */
+}
+
+/* ===== LISTS (если где-то появятся ul/li) ===== */
+ul {
+  margin: 4pt 0 6pt 16pt;
+  padding: 0;
+}
+li {
+  margin: 0 0 2pt 0;
+}
+
+/* ===== EXPERIENCE SPACING ===== */
+/* немного воздуха между ролями */
+strong + br {
+  margin-bottom: 2pt;
+}
+
+/* ===== HORIZONTAL RULE ===== */
+hr {
+  border: none;
+  border-top: 1px solid #e6e6e6;
+  margin: 10pt 0;
+}
+
+/* ===== CONTACT BLOCK (сразу после имени) ===== */
+h1 + p,
+h1 + p + p,
+h1 + p + p + p,
+h1 + p + p + p + p,
+h1 + p + p + p + p + p {
+  margin-bottom: 3pt;
+}
